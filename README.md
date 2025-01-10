@@ -48,8 +48,6 @@ ctl.!default {
 
 Reboot after making these changes. This information and much more is available at the [HiFiBerry website](https://www.hifiberry.com/docs/software/configuring-linux-3-18-x/).
 
-### 
-
 ### Software
 
 Wax is different from other music software you might have seen or used in three important ways. First, the fundamental unit for entries in the catalog is a “work”, not a track. A work is usually a collection of tracks. In pop music, a work can be an album. For symphonic music, a work can be a single symphony, even when the tracks come from a CD with more than one symphony. For operas, a work can be a single opera even when the tracks come from multiple CDs. Music collectors usually think in terms of works, so a music manager that supports the concept makes operation more natural.
