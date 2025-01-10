@@ -24,7 +24,7 @@ Here is the parts list:
 | Crucial X6 2TB SSD | $110 |
 | 2 GB SD card | $10 |
 | CD drive | $30 |
-| Case | $30 |
+| HiFiBerry Steel Case Pi4| $30 |
 | **TOTAL** | **$288** |
 
 The DAC2 Pro has phono connectors and a headphone jack for the audio outputs. Connect one of them to your preamp or powered loudspeakers. Use the two USB 2 ports for your keyboard and mouse. Connect your monitor to a micro HDMI port and your power supply to the USB-C port.
@@ -125,7 +125,7 @@ Put this command in ~/.config/labwc/autostart to activate the scaling automatica
 |:--|--:|
 | Previous total | $288 |
 | Raspberry Pi Touch Display 2 | $60 |
-| Pimoroni Pibow Frame | (£15) $19 |
+| Pimoroni Pibow Frame (£15) | $19 |
 | RCA 90° adapters | $2.50 |
 | USB C 90° adapter | $3 |
 | Touch screen stylus | $2.50 |
