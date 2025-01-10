@@ -1,4 +1,3 @@
-# jeffbarish.github.io
 # <center> A Powerful Music Server with High-Quality Audio and High-Resolution Metadata </center>
 
 ## <center> by Jeffrey Barish </center>
