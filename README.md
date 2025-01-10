@@ -58,20 +58,20 @@ Finally, Wax tightly integrates three functions: cataloging, selecting, and play
 
 Here are views of Wax in each of its three modes. I selected a classical recording for this tour because classical music presents the greatest cataloging challenges. However, readers familiar with other programs will immediately recognize the virtues of Wax for recordings in other genres.
 
-### Select mode
+# Select mode
 
 <img src="HiFiBerryWaxArticle_html_9be93cfa.png">
 
 The Concerto genre has four keys, composer, work, soloist, and conductor. Notice how works by each composer are listed together and different versions of each work are listed together. The soloist in the selected recording appears on two recordings of this work, but even so it is easy to distinguish the recordings by looking at the conductor field. Wax obviates the need to click into other display modes to display details necessary to distinguish recordings. Wax also has incremental search and a mode for randomly selecting recordings. After selecting the desired recording, a panel appears with the tracks. Once you have selected the work and the desired tracks, you drag the selection to the play queue list on the right and then activate the play button.
 
-### Play mode
+# Play mode
 
 <img src="HiFiBerryWaxArticle_html_d84e282c.png">
 
 
 In Play mode we see all the metadata associated with the work. Values that appeared in their short form in Select mode (e.g., “Brahms”) are presented here in their long form (“Johannes Brahms”). The Wikipedia page gets populated automatically with pages at Wikipedia related to the selection. The Docs page is for viewing liner notes.
 
-### Edit mode
+# Edit mode
 
 <img src="HiFiBerryWaxArticle_html_cb59015d.png">
 
