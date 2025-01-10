@@ -10,7 +10,7 @@ In this article, we present an economical system that does everything you expect
 
 To start, let us consider the hardware. Here is an image of the system:
 
-![Hardware](Hardware.pgn) <img src="Hardware.png">
+![Hardware](Hardware.pgn) <img src="HiFiBerryWaxArticle_html_687a03bc.png">
 
 On the right, you can see the core of the system: a Raspberry Pi 4B with a HiFiBerry DAC2 Pro HAT. Bulk storage is provided by the 2TB SSD sitting on the CD drive. I recommend the Raspberry Pi 4B over the 5 because the latter requires a cooling fan. Fans are anathema for audio products because they make noise, although the tiny fan required for the Raspberry Pi 5 makes so little noise that you probably would not notice it in practice. (The fans in your $35,000 monoblock power amplifiers with their fancy machined aluminum cases probably make much more noise.) In any case, the Raspberry Pi 4B is sufficiently powerful to run Wax and it is cheaper. I have found that 4GB of memory is more than enough for Wax. In fact, I have never seen the memory requirements exceed 2GB, so you might even get away with the cheapest version – and save a whopping $10 to boot! You might consider substituting the HiFiBerry DAC2 HD ($109). It provides even better audio quality – lower THD and noise – for any golden ears out there.
 
@@ -39,15 +39,10 @@ It is also a good idea to create a file /etc/asound.conf with:
 
 ```
 pcm.!default {
-
   type hw card 0
-
 }
-
 ctl.!default {
-
   type hw card 0
-
 }
 ```
 
