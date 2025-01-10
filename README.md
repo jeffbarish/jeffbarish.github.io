@@ -6,7 +6,7 @@ Audiophiles interested in a music server often spend over $10,000 for a product.
 
 In this article, we present an economical system that does everything you expect from a music server and does it well, but you do not get an elaborately machined aluminum case. The core hardware is a Raspberry Pi 4B with a HiFiBerry DAC 2 HAT. The software is a free custom program that I wrote called “Wax”. Developing Wax *was* a massive challenge, but the software is the sine qua non of music servers so it is critical to get it right. Wax makes it easy to find desired recordings in your collection – especially if your collection includes classical music – and to present as much metadata as you want for each recording. In addition, it provides viewers for liner notes and Wikipedia so that you can dig deeper for information about the music you are listening to. Despite these virtues, you will not find this solution described in any audiophile publication because its parts cost is only $288 and it does not require a forklift to move it.
 
-### Hardware
+## Hardware
 
 To start, let us consider the hardware. Here is an image of the system:
 
@@ -48,7 +48,7 @@ ctl.!default {
 
 Reboot after making these changes. This information and much more is available at the [HiFiBerry website](https://www.hifiberry.com/docs/software/configuring-linux-3-18-x/).
 
-### Software
+## Software
 
 Wax is different from other music software you might have seen or used in three important ways. First, the fundamental unit for entries in the catalog is a “work”, not a track. A work is usually a collection of tracks. In pop music, a work can be an album. For symphonic music, a work can be a single symphony, even when the tracks come from a CD with more than one symphony. For operas, a work can be a single opera even when the tracks come from multiple CDs. Music collectors usually think in terms of works, so a music manager that supports the concept makes operation more natural.
 
@@ -58,20 +58,20 @@ Finally, Wax tightly integrates three functions: cataloging, selecting, and play
 
 Here are views of Wax in each of its three modes. I selected a classical recording for this tour because classical music presents the greatest cataloging challenges. However, readers familiar with other programs will immediately recognize the virtues of Wax for recordings in other genres.
 
-# Select mode
+### Select mode
 
 <img src="HiFiBerryWaxArticle_html_9be93cfa.png">
 
 The Concerto genre has four keys, composer, work, soloist, and conductor. Notice how works by each composer are listed together and different versions of each work are listed together. The soloist in the selected recording appears on two recordings of this work, but even so it is easy to distinguish the recordings by looking at the conductor field. Wax obviates the need to click into other display modes to display details necessary to distinguish recordings. Wax also has incremental search and a mode for randomly selecting recordings. After selecting the desired recording, a panel appears with the tracks. Once you have selected the work and the desired tracks, you drag the selection to the play queue list on the right and then activate the play button.
 
-# Play mode
+### Play mode
 
 <img src="HiFiBerryWaxArticle_html_d84e282c.png">
 
 
 In Play mode we see all the metadata associated with the work. Values that appeared in their short form in Select mode (e.g., “Brahms”) are presented here in their long form (“Johannes Brahms”). The Wikipedia page gets populated automatically with pages at Wikipedia related to the selection. The Docs page is for viewing liner notes.
 
-# Edit mode
+### Edit mode
 
 <img src="HiFiBerryWaxArticle_html_cb59015d.png">
 
@@ -86,13 +86,13 @@ The import tab presents controls for importing sound, image, or document files. 
 
 Once you have specified all the metadata you want, you click the “Save new” button to create a new work. When you save a new work, Wax tags the sound files with values derived from as much of its rich metadata as possible in case you ever want to listen to the sound files on some other platform.
 
-### Installing Wax
+## Installing Wax
 
 Wax is free. To get a copy of the software, go to github.com/jeffbarish. There are four repositories. One is for Wax. wax-config is for a separate program called WaxConfig which is used for configuring Wax (e.g., creating genres) and for displaying statistics about your database (e.g., the number of works in each genre). The manual is in wax-manual. You can also view the manual on line at [https://wax-manual.readthedocs.io/en/latest/introduction.html](https://wax-manual.readthedocs.io/en/latest/introduction.html). Finally, there are two installer scripts in wax-install. The README in wax-install explains how to use the installers to install the software (basically, you just run the two “installer” commands).
 
 Use [Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/connect.html) on the Raspberry Pi to control Wax remotely from any browser. I use a browser on my tablet to interact with Wax. This connection allows me to use Wax to make selections, activate play, control the volume, read liner notes, and more all from the convenience of my listening position.
 
-### Packaging
+## Packaging
 
 There are several options for packaging your system. One is the inexpensive [HiFiBerry case](https://www.hifiberry.com/shop/cases/universal-steel-case-pi4/). It neatly houses the system pictured above.
 
@@ -133,7 +133,7 @@ Put this command in ~/.config/labwc/autostart to activate the scaling automatica
 
 <img src="HiFiBerryWaxArticle_html_e9411111.jpg">
 
-### The Dream System
+## The Dream System
 
 The system that I described in this tutorial is a feature-complete music server, unlike some commercial products costing 100x or more. Audio performance is competitive with those products and the software (he said modestly) is better. What else could anyone possibly want? Answer: my dream case. The standard HiFiBerry case can house the two-board stack of Raspberry Pi 4B and HiFiBerry DAC2 Pro. However, a dream case would accommodate one more HAT in the stack so that the SSD could be inside the case too. A turner board would also be nice so that all connectors are on the back panel. Anyone? If you were also inclined to design an elaborately machined aluminum case, what a takedown of the pretentious, audiophile snobs that would be!
 
