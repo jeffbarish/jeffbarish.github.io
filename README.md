@@ -56,20 +56,20 @@ Here are views of Wax in each of its three modes. I selected a classical recordi
 
 ### Select mode
 
-<img src="HiFiBerryWaxArticle_html_9be93cfa.png">
+<img src="HiFiBerryWaxArticle_select.png">
 
 The Concerto genre has four keys, composer, work, soloist, and conductor. Notice how works by each composer are listed together and different versions of each work are listed together. The soloist in the selected recording appears on two recordings of this work, but even so it is easy to distinguish the recordings by looking at the conductor field. Wax obviates the need to click into other display modes to display details necessary to distinguish recordings. Wax also has incremental search and a mode for randomly selecting recordings. After selecting the desired recording, a panel appears with the tracks. Once you have selected the work and the desired tracks, you drag the selection to the play queue list on the right and then activate the play button.
 
 ### Play mode
 
-<img src="HiFiBerryWaxArticle_html_d84e282c.png">
+<img src="HiFiBerryWaxArticle_play.png">
 
 
 In Play mode we see all the metadata associated with the work. Values that appeared in their short form in Select mode (e.g., “Brahms”) are presented here in their long form (“Johannes Brahms”). The Wikipedia page gets populated automatically with pages at Wikipedia related to the selection. The Docs page is for viewing liner notes.
 
 ### Edit mode
 
-<img src="HiFiBerryWaxArticle_html_cb59015d.png">
+<img src="HiFiBerryWaxArticle_edit.png">
 
 
 Edit mode is where you create new works or revise existing ones. The fields on the left are where you specify the work metadata. “Primary” keys have two value fields, one for the short form (Select mode) and the other for the long form (Play mode). Secondary metadata appear only in Play mode, so they have only a long form. The +Nonce button is for creating additional fields for metadata specific to one recording (for example, the soloists in an opera).
@@ -92,7 +92,7 @@ Use [Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/co
 
 There are several options for packaging your system. One is the inexpensive [HiFiBerry case](https://www.hifiberry.com/shop/cases/universal-steel-case-pi4/). It neatly houses the system pictured above.
 
-<img src="HiFiBerryWaxArticle_html_bccdc75c.jpg">
+<img src="HiFiBerryWaxArticle_touchscreen_front.jpg">
 
 
 A radically different approach takes advantage of the recently released Raspberry Pi Touch Display 2, a 7” 720x1280 touchscreen display. The dedicated touchscreen display avoids the need to connect a monitor, keyboard, and mouse. You can mount the two-card stack on the back of the display and use the [Pibow Frame](https://shop.pimoroni.com/products/pibow-frame-for-raspberry-pi-touch-display-2?variant=53514323001723) from Pimoroni to hold it. Here are some tips for achieving the best experience:
@@ -127,7 +127,7 @@ Put this command in ~/.config/labwc/autostart to activate the scaling automatica
 | Touch screen stylus | $2.50 |
 | **TOTAL** | **$375** |
 
-<img src="HiFiBerryWaxArticle_html_e9411111.jpg">
+<img src="HiFiBerryWaxArticle_touchscreen_rear.jpg">
 
 ## The Dream System
 
