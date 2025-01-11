@@ -105,7 +105,7 @@ A radically different approach takes advantage of the recently released Raspberr
 wlr-randr --output DSI-1 –scale=1.3
 ```
 
-    Put this command in ~/.config/labwc/autostart to activate the scaling automatically.
+&nbsp;&nbsp;&nbsp;&nbsp;Put this command in ~/.config/labwc/autostart to activate the scaling automatically.
 
 - Use WaxConfig to set the width of the right panel of Wax to 400.
 
