@@ -58,7 +58,7 @@ Here are views of Wax in each of its three modes. I selected a classical recordi
 
 <img src="HiFiBerryWaxArticle_select.png">
 
-The Concerto genre has four keys, ``composer``, ``work``, ``soloist``, and ``conductor``. Notice how works by each composer are listed together and different versions of each work are listed together. The soloist in the selected recording appears on two recordings of this work, but even so it is easy to distinguish the recordings by looking at the conductor field. Wax obviates the need to click into other display modes to display details necessary to distinguish recordings. Wax also has incremental search and a mode for randomly selecting recordings. After selecting the desired recording, a panel appears with the tracks. Once you have selected the work and the desired tracks, you drag the selection to the play queue list on the right and then activate the play button.
+The Concerto genre has four keys, ``composer``, ``work``, ``soloist``, and ``conductor``. Notice how works by each composer are listed together and different versions of each work are listed together. The soloist in the selected recording appears on two recordings of this work, but even so it is easy to distinguish the recordings by looking at the conductor field. Wax obviates the need to click into other display modes to expose details necessary to distinguish recordings. Wax also has incremental search and a mode for randomly selecting recordings. After selecting the desired recording, a panel appears with the tracks. Once you have selected the work and the desired tracks, you drag the selection to the play queue list on the right and then activate the play button.
 
 ### Play mode
 
