@@ -23,7 +23,7 @@ Here is the parts list:
 | HiFiBerry Steel Case Pi4| $30 |
 | **TOTAL** | **$288** |
 
-The DAC2 Pro has phono connectors and a headphone jack for the audio outputs. Connect one of them to your preamp or powered loudspeakers. Use the two USB 2 ports for your keyboard and mouse and one of the USB 3 ports for the CD drive. Connect your monitor to a micro HDMI port and your power supply to the USB-C port.
+The DAC2 Pro has phono connectors and a headphone jack for the audio outputs. Connect one of them to your preamp or powered loudspeakers. Use the two USB 2 ports for your keyboard and mouse, one of the USB 3 ports for the CD drive, and the other for the SSD. Connect your monitor to a micro HDMI port and your power supply to the USB-C port.
 
 I run Wax on Raspberry Pi OS. You need to change the boot configuration to enable the DAC2 Pro HAT. Go to /boot/firmware and edit config.txt. You need to make three changes to the file:
 
