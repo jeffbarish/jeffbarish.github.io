@@ -90,10 +90,11 @@ Use [Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/co
 
 ## Packaging
 
+<img src="HiFiBerryWaxArticle_steel_case.jpg">
+
 There are several options for packaging your system. One is the inexpensive [HiFiBerry case](https://www.hifiberry.com/shop/cases/universal-steel-case-pi4/). It neatly houses the system pictured above.
 
 <img src="HiFiBerryWaxArticle_touchscreen_front.jpg">
-
 
 A radically different approach takes advantage of the recently released Raspberry Pi Touch Display 2, a 7” 720x1280 touchscreen display. The dedicated touchscreen display avoids the need to connect a monitor, keyboard, and mouse. You can mount the two-card stack on the back of the display and use the [Pibow Frame](https://shop.pimoroni.com/products/pibow-frame-for-raspberry-pi-touch-display-2?variant=53514323001723) from Pimoroni to hold it. Here are some tips for achieving the best experience:
 
