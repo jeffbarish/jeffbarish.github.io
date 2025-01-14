@@ -92,7 +92,7 @@ Use [Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/co
 
 <img src="HiFiBerryWaxArticle_steel_case.jpg">
 
-There are several options for packaging your system. One is the inexpensive [HiFiBerry case](https://www.hifiberry.com/shop/cases/universal-steel-case-pi4/). It neatly houses the system pictured above.
+There are several options for packaging your system. One is the inexpensive [HiFiBerry case](https://www.hifiberry.com/shop/cases/universal-steel-case-pi4/). It neatly houses the system pictured at the top of this article.
 
 <img src="HiFiBerryWaxArticle_touchscreen_front.jpg">
 
