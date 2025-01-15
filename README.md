@@ -108,7 +108,7 @@ wlr-randr --output DSI-1 –scale=1.3
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Put this command in ~/.config/labwc/autostart to activate the scaling automatically.
 
-- Use WaxConfig to set the width of the right panel of Wax to 400.
+- Use WaxConfig to set the width of the right panel of Wax to 400 (on the Parameters tab).
 
 - Operate Wax in fullscreen mode. To activate fullscreen mode, run Wax and then type Alt-space to open a menu for controlling the window. Select fullscreen. (Repeat that procedure to get out of fullscreen mode.)
 
